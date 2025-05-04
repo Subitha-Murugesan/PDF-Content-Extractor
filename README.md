@@ -28,13 +28,13 @@ pdf-content-extractor/
 **## Getting Started
 ##Usage Example**
 
-
+```
 from extract_pdf import extract_main_sections_from_outline, process_subsections_recursive
 pdf_path = "your_file.pdf"
 main_sections = extract_main_sections_from_outline(pdf_path)
 for i in range(len(main_sections) - 1):
     process_subsections_recursive(pdf_path, main_sections[i], main_sections[i + 1])
-
+```
 Outputs are saved in the `output/` directory.
 
 ---
