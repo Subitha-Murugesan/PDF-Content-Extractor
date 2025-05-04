@@ -13,7 +13,6 @@ It is ideal for parsing reports, research papers, or documents with a clear outl
 
 ##  Project Structure
 
-```
 
 pdf-content-extractor/
 │
@@ -54,7 +53,7 @@ SectionTitle | Length | No subsections
 
 ---
 
-##Configuration
+## Configuration
 
 You can adjust the length limit for section content:
 
