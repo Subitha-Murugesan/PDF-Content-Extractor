@@ -44,17 +44,13 @@ Outputs are saved in the `output/` directory.
 
 **combined\_content\_save.txt**
 
-```text
 Section Title
 -----------------------------
 Cleaned content of this section...
-```
 
 **exceeds.txt**
 
-```text
 SectionTitle | Length | No subsections
-```
 
 ---
 
