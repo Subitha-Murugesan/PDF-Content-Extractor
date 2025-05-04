@@ -2,13 +2,13 @@
 A powerful Python script that extracts content from PDF files based on structured section headers. 
 It is ideal for parsing reports, research papers, or documents with a clear outline format.
 
-## ✨ Features
+## Features
 
-- ✅ Extracts text between two headers in a PDF
-- ✅ Normalizes and cleans the extracted text
-- ✅ Supports recursive sub-section extraction
-- ✅ Saves cleaned sections and logs problematic ones
-- ✅ Outputs in `.txt` and `.pkl` formats
+- Extracts text between two headers in a PDF
+- Normalizes and cleans the extracted text
+- Supports recursive sub-section extraction
+- Saves cleaned sections and logs problematic ones
+- Outputs in `.txt` and `.pkl` formats
 
 
 ## 📁 Project Structure
@@ -27,19 +27,14 @@ pdf-content-extractor/
 
 
 ## Getting Started
-## 🧠 Usage Example
+##Usage Example
 
-Edit `main function` to specify your PDF file path:
 
-```python
 from extract_pdf import extract_main_sections_from_outline, process_subsections_recursive
-
 pdf_path = "your_file.pdf"
 main_sections = extract_main_sections_from_outline(pdf_path)
-
 for i in range(len(main_sections) - 1):
     process_subsections_recursive(pdf_path, main_sections[i], main_sections[i + 1])
-```
 
 Outputs are saved in the `output/` directory.
 
@@ -63,10 +58,8 @@ SectionTitle | Length | No subsections
 
 ---
 
-## ⚙️ Configuration
+##Configuration
 
-You can adjust the length limit for section content in `extract_pdf.py`:
+You can adjust the length limit for section content:
 
-```python
 section_split_threshold = 15000  # default value
-```
