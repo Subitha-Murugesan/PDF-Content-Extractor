@@ -13,7 +13,7 @@ It is ideal for parsing reports, research papers, or documents with a clear outl
 
 ##  Project Structure
 
-
+```
 pdf-content-extractor/
 │
 ├── extract\_pdf.py               # Core logic for section-wise PDF extraction
@@ -23,7 +23,7 @@ pdf-content-extractor/
 │   └── exceeds.txt                # Sections that are too long or invalid
 ├── requirements.txt             # Python dependencies
 └── README.md                    # Project documentation
-
+```
 
 **## Getting Started
 ##Usage Example**
