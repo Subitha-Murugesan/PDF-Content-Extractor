@@ -37,21 +37,6 @@ for i in range(len(main_sections) - 1):
 ```
 Outputs are saved in the `output/` directory.
 
----
-
-**##Sample Output**
-
-**combined\_content\_save.txt**
-
-Section Title
------------------------------
-Cleaned content of this section...
-
-**exceeds.txt**
-
-SectionTitle | Length | No subsections
-
----
 
 ## Configuration
 
