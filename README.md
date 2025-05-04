@@ -1,4 +1,4 @@
-# 📄 PDF Content Extractor
+# PDF Content Extractor
 A powerful Python script that extracts content from PDF files based on structured section headers. 
 It is ideal for parsing reports, research papers, or documents with a clear outline format.
 
@@ -11,7 +11,7 @@ It is ideal for parsing reports, research papers, or documents with a clear outl
 - Outputs in `.txt` and `.pkl` formats
 
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 
@@ -26,8 +26,8 @@ pdf-content-extractor/
 └── README.md                    # Project documentation
 
 
-## Getting Started
-##Usage Example
+**## Getting Started
+##Usage Example**
 
 
 from extract_pdf import extract_main_sections_from_outline, process_subsections_recursive
@@ -40,7 +40,7 @@ Outputs are saved in the `output/` directory.
 
 ---
 
-## 🧾 Sample Output
+**##Sample Output**
 
 **combined\_content\_save.txt**
 
